@@ -16,6 +16,7 @@ NEWSPIDER_MODULE = 'wikicodes.spiders'
 
 FEED_FORMAT="json"
 FEED_URI="country_codes.json"
+FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'wikicodes (+http://www.yourdomain.com)'
